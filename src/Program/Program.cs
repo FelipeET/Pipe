@@ -38,7 +38,7 @@ namespace CompAndDel
             pipeC.Send(picture);
 
             // Ejercicio 4
-            
+
         }
     }
 }

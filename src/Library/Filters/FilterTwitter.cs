@@ -8,9 +8,9 @@ namespace CompAndDel.Filters
         // Esta clase sirve para publicar la foto en twitter.
         public IPicture Filter(IPicture image)
         {
+            
             var twitter = new TwitterImage();
-            Console.WriteLine(twitter.PublishToTwitter("text", @"lukefiltrado3.png"));
-
+            Console.WriteLine(twitter.PublishToTwitter("god", @"lukefiltrado2.jpg"));
             return image;
         }
     }
