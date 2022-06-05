@@ -39,10 +39,10 @@ namespace CompAndDel.Pipes
         /// Recibe una imagen, le aplica un filtro y la envía al siguiente Pipe
         /// </summary>
         /// <param name="picture">Imagen a la cual se debe aplicar el filtro</param>
-        public IPicture Send(IPicture picture)
+        public IPicture Send(IPicture picturem)
         {
-            picture = this.filtro.Filter(picture);
-            return this.nextPipe.Send(picture);
+            picturem = this.filtro.Filter(picturem);
+            return this.nextPipe.Send(picturem);
         }
     }
 }
